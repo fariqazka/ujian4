@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a7be9;
+            color: white;
+        }
+        header {
+            background-color: #040e94;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #00C853;
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #2b2b2b;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5em;
+            margin: 15px;
+        }
+        .card p {
+            padding: 0 15px 15px;
+            color: #ddd;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #00c5d4;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Digital Marketing Hub</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="https://www.webinternational.net/wp-content/uploads/2017/04/SEO-article.jpg" alt="SEO">
+            <h2>SEO</h2>
+            <p>Meningkatkan peringkat website Anda di mesin pencari dengan strategi SEO terbaik.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://uici.ac.id/wp-content/uploads/2023/04/png_20230404_131157_0000.png" alt="Media Sosial">
+            <h2>Media Sosial</h2>
+            <p>Membangun merek Anda di platform media sosial untuk menjangkau audiens lebih luas.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.wBV7lr27Dm-AhggRxyPOqQHaHk&pid=Api&P=0&h=180" alt="Pemasaran Konten">
+            <h2>Pemasaran Konten</h2>
+            <p>Menciptakan konten yang menarik untuk meningkatkan engagement dan konversi.</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Digital Marketing Hub. All rights reserved.</p>
+        <p>
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://instagram.com">Instagram</a> |
+            <a href="https://linkedin.com">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
